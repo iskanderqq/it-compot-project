@@ -1,0 +1,168 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex:1 1 auto;
+}
+.shop {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.shop_img {
+    width: 100%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav_item {
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #ffbb00;
+    height: 30px;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+    padding: 20px;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.active {
+    display: block;
+}
+
+.maps {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container_footer {
+    background: #ffbb00;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_text {
+    font-size: 25px;
+}
+
+.white {
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.black {
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.burger{
+background: transparent;
+border: 0;
+cursor: pointer;
+}
+.bg-img{
+    width: 50px;
+    height: 20px;
+}
+
+@media(max-width: 901px) {
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+        background: skyblue;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        z-index: 2;
+    }
+
+    .container {
+        max-width: 600px;
+    }
+
+}
+
+#myVideo{
+    width: 100%;
+}
+.video{
+    position: relative;
+}
+.video__content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0, 0.5);
+    color: azure;
+}
+.video__btn{
+    width: 200px;
+    font-size: 18px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.video__btn:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.basket{
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 15px 25px;
+    background-color: #11b088;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.basket__img{
+    width: 80%;
+}
+.price{
+    margin: 0;
+    text-align: center;
+}
+
+.gds__list{
+    list-style: none;
+}
+.gds__item{
+    padding: 10px;
+    border:  2px solid black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.none{
+    display: none;
+}

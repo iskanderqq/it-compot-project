@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>продам бананы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/acr.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="btn-menu" id="menubtn">меню</button>
+            <nav class="nav" id="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">вход</li>
+                    <li class="nav_item">регистрация</li>
+                    <li class="nav_item">акция</li>
+                    <li class="nav_item"><a href="basket.html">Корзина</a></li>
+    
+                    <li class="nav_item">
+                        <div class="white" onclick="white()">
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <div class="black" onclick="black()">
+                        </div>
+                    </li>
+                </ul>
+                <button class="burger">
+                    <img src="img/Image20230802121652.png" alt="" class="bg-img">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="video">
+            <video class="myVideo" id="myVideo" autoplay muted>
+                <source src="video/video1.mp4" type="video/mp4">
+            </video>
+            <div class="video__content">
+                <div class="container">
+                    <h2 class="video__title">Hunter X Hunter</h2>
+                    <p class="video__text">anime</p>
+                    <button class="video__btn" id="play" onclick="play()">Pause</button>
+                    <button class="video__btn" id="mute" onclick="mute()">On</button>
+                    <button class="video__btn" onclick="next()">Next</button>
+                    <button class="video__btn" onclick="prev()">Prev</button>
+                </div>
+            </div>
+        </section>
+        <section class="shop">
+            <div class="conteiner">
+                <h1 class="shop_title">продам бананы</h1>
+
+                <div class="itc-slider" data-slider="itc-slider">
+                    <div class="itc-slider-wrapper">
+                        <div class="itc-slider-items">
+                            <div class="itc-slider-item">
+                                <!-- Контент 1 слайда -->
+                                <img src="img/1665221386_3-2.jpg" alt="" class="shop_img">
+
+                            </div>
+                            <div class="itc-slider-item">
+                                <!-- Контент 2 слайда -->
+                                <img src="img/Сорт-банана-Айс-крим-Ice-CreamCenizoKrie.jpg" alt=" " class="shop_img">
+
+                            </div>
+                            <div class="itc-slider-item">
+                                <!-- Контент 2 слайда -->
+                                <img src="img/bananas_PNG5397.jpg" alt="" class="shop_img">
+
+                            </div>
+                            <div class="itc-slider-item">
+                                <!-- Контент 3 слайда -->
+                                <img src="img/kartinki24_ru_fortnite_62.jpg" alt=" " class="shop_img">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                    <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                    <button class="itc-slider-btn itc-slider-btn-next"></button>
+                </div>
+                <div class="accordion" id="accordion-1">
+                    <div class="accordion__item">
+                        <h2 class="accordion__header">
+                            о товаре
+                        </h2>
+                        <div class="accordion__body">
+                            <p>
+                                Банан — одно из самых древних культивируемых растений[8]. Его родиной считаются острова
+                                Малайского
+                                архипелага, где, как полагают учёные, древние жители выращивали их и употребляли в пищу
+                                как дополнение к
+                                рыбной диете[9]. Путешествуя по островам Тихого океана, они запасались известными им
+                                фруктами и таким
+                                образом способствовали распространению бананов. Первым из современных учёных,
+                                установившим
+                                географическое происхождение бананов, стал один из основоположников научной селекции
+                                академик Н. И.
+                                Вавилов, который в 1920—1930-х годах исследовал различные регионы мира и описал
+                                результаты в труде
+                                «Центры происхождения культурных растений
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordion-2">
+                    <div class="accordion__item">
+                        <h2 class="accordion__header">
+                            цена
+                        </h2>
+                        <div class="accordion__body">
+                            <p class="shop_prise">120 000 р за кг</p>
+                            <button class="shop_btn" onclick="buy()" id="btn">купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="maps">
+            <div class="conteiner">
+                <h2 class="maps_title">точка самовывоза</h2>
+                <div class="google">
+                    <h2 class="googlemap">карта</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71811.66198754376!2d37.59150933110983!3d55.773884294972916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5360d2d79c1fd%3A0x5b454467ea4e885f!2z0J7QvtC-ICLQkdCw0L3QsNC9Ig!5e0!3m2!1sru!2sru!4v1690621296331!5m2!1sru!2sru"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="yandex">
+                    <h2 class="yandex_map">
+                        яндекс карта
+                    </h2>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A5930011a514d20e0a0b6e1b98953e0c3cdfbb2f7bf6a0602134fbdf5d4af61d1&amp;source=constructor"
+                        width="100%" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+
+       <button class="basket" id="basket">
+            <a href="basket.html">
+                <img src="img/basket.png" alt="" class="basket__img">
+                <p class="price">0</p>
+            </a>
+       </button> 
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <p class="footer_text">Корчагин С.А. 9-б класс</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/acr.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/video.js"></script>
+</body>
+
+</html>

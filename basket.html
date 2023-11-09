@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>продам бананы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/acr.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="btn-menu" id="menubtn">меню</button>
+            <nav class="nav" id="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">вход</li>
+                    <li class="nav_item">регистрация</li>
+                    <li class="nav_item">акция</li>
+                    <li class="nav_item">корзина</li>
+                    <li class="nav__item"><a href="index.html">Главная</a></li>
+                    <li class="nav_item">
+                        <div class="white" onclick="white()">
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <div class="black" onclick="black()">
+                        </div>
+                    </li>
+                </ul>
+                <button class="burger">
+                    <img src="img/Image20230802121652.png" alt="" class="bg-img">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="gds">
+            <div class="container container_gds">
+                <h2 class="gds__title">Корзина</h2>
+                <ul class="gds__list">
+                    <li class="gds__item">
+                        <p class="gds__text">В корзине пусто</p>
+                    </li>
+                </ul>
+                <button class="gds__btn" onclick="update()">Обновить</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <p class="footer_text">Корчагин С.А. 9-б класс</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/basket.js"></script>
+</body>
+
+</html>
